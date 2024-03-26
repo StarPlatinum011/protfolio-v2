@@ -1,3 +1,4 @@
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -24,11 +25,13 @@ export default {
 
       }, 
       boxShadow: {
-        'offset-black' : '3px 3px black'
+        'offset-black' : '4px 4px black'
       }
     },
   },
-  plugins: [],
+  plugins: [
+
+  ],
 }
 
 
