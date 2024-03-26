@@ -4,10 +4,10 @@ import { Icon } from '@iconify/react';
 
 const Hero = () => {
     return (
-        <div className='flex flex-col font-work-sans bg-main-bg text-main-text  py-28 md:py-44 md:flex-row md:px-48 '>
+        <div className='flex flex-col font-work-sans bg-main-bg text-titles py-28 md:py-56 md:flex-row md:px-48 '>
         {/* heading and subheading contents  */}
             <div className='p-4 space-y-3 md:px-16 md:pt-24'>
-                <h1 className='text-3xl font-bold md:text-6xl'>Proving hard work can be equal to <span className='text-accent-blue'>talent <Icon icon="meteocons:star-fill" width="1rem" height="1rem" /></span> </h1>
+                <h1 className='text-3xl font-bold md:text-6xl text-main-text'>Proving hard work can be equal to <span className='text-accent-blue'>talent <Icon icon="meteocons:star-fill" width="1rem" height="1rem" /></span> </h1>
                 
                 
                 <h3 className=' text-lg md:text-3xl'>Hi, my name is Karan Pun and I’m a full-stack web developer.</h3>

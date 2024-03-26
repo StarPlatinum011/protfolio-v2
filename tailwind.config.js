@@ -11,9 +11,9 @@ export default {
       colors:{
         'main-bg': '#F9F5F2',
         'accent-blue': '#91A8EC',
-        'accent-green': '',
+        'accent-green': '#22A094',
         'accent-yellow': '#F7CB45',
-        'accent-pink': '',
+        'accent-pink': '#FF91E7',
 
         "main-text": "#0d0c22",
         "titles": "#282825",

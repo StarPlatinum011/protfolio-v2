@@ -7,6 +7,10 @@
     @apply border border-black shadow-offset-black rounded-lg;
 }
 
+.brutal-shadow-edge{
+    @apply border border-black shadow-offset-black;
+}
+
 .card{
     @apply flex place-items-center pl-2 bg-main-bg border border-black shadow-offset-black rounded-lg w-16 h-16;
 }

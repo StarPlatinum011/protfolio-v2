@@ -6,7 +6,7 @@ const Nav = () => {
 
     const [isOpen, setIsOpen] = useState(false);
     return (
-        <div className='shadow-md text-main-text font-work-sans w-full fixed top-0 left-0'>
+        <div className='shadow-md text-titles font-work-sans w-full fixed top-0 left-0'>
             <div className='flex justify-between md:px-64 py-4 px-7 md:flex  items-center bg-main-bg'>
                 {/* logo */}
                 <div className='flex cursor-pointer items-center gap-1'>
