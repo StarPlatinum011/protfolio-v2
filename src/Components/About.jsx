@@ -10,7 +10,7 @@ const About = () => {
                 {/* About description  */}
                 <div className='flex flex-col place-items-center mb-4 mt-1 '>
                     <span className='justify-self-start'><Icon  icon="meteocons:star-fill" width="4rem" height="4rem" /></span>
-                    <p className=' text-lg text-text-light md:text-2xl md:font-semibold text-balance md:pt-8 '>
+                    <p className=' text-lg text-titles md:text-2xl md:font-semibold text-justify md:pt-8 '>
                         Fully committed to the philosophy of life-long learning, I’m a full stack developer with a deep passion for JavaScript, React and all things web development. The unique combination of creativity, logic, technology and never running out of new things to discover, drives my excitement and passion for web development. When I’m not at my computer I like to spend my time reading, keeping  fit and playing guitar.
                     </p>                    
                 </div>

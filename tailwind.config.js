@@ -14,6 +14,7 @@ export default {
         'accent-green': '#22A094',
         'accent-yellow': '#F7CB45',
         'accent-pink': '#FF91E7',
+        'whitesmoke' : '#f5f5f5',
 
         "main-text": "#0d0c22",
         "titles": "#282825",
@@ -25,7 +26,8 @@ export default {
 
       }, 
       boxShadow: {
-        'offset-black' : '4px 4px black'
+        'offset-black' : '3px 3px black',
+        'offset-hover': '5px 5px black'
       }
     },
   },
