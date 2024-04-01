@@ -1,23 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import data from '../utils/ProjectData';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 
 const Projects = () => {
 
-    function btnColor(value) {
-        switch(value.id){
-            case 0:
-                return 'bg-fff'
-        }
-    }
+    //Initialize the AOS package on componentDidMount
+    useEffect(() => {
+        AOS.init(); //You can add options as per your need inside an object
+       }, []);
+
     return (
-        <div className='flex flex-col font-work-sans bg-main-bg space-y-12 p-4 items-center text-titles md:px-48 md:space-y-40'>
-            <h1 className='text-3xl font-bold md:text-6xl mt-2 -mb-8 md:mt-12 md:-mb-16'>Projects</h1>
+        <div className='flex flex-col font-work-sans bg-main-bg p-4 items-center text-titles space-y-12 md:px-48 md:space-y-40 py-16 md:py-28'>
+            <h1 className='text-3xl font-bold md:text-6xl mt-2 -mb-8  md:-mb-16'>Projects</h1>
             {
                 data.map((data) => {
                     return(
-                        <div key={data.id} className={`flex flex-col md:items-center md:space-x-24 space-y-3  ${data.id%2==0? "md:flex-row-reverse": "md:flex-row"}`}>
-                            <div className='brutal-shadow-edge'>
+                        <div data-aos="fade-out" data-aos-duration="900" data-aos-easing="linear" key={data.id}  className={`flex flex-col md:items-center md:space-x-24 space-y-3  ${data.id%2==0? "md:flex-row-reverse": "md:flex-row"}`}>
+                            <div className='brutal-shadow-edge bg-no-repeat hover:brightness-75  transition-all duration-500'>
                                 <img src={data.image}/>
                             </div>
                             <div className='flex flex-col space-y-3 '>

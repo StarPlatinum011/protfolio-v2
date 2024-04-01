@@ -1,7 +1,7 @@
 
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
+  content: [ 
     "./index.html",
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
@@ -15,6 +15,7 @@ export default {
         'accent-yellow': '#F7CB45',
         'accent-pink': '#FF91E7',
         'whitesmoke' : '#f5f5f5',
+        'loud-pink' : '#ea4c89',
 
         "main-text": "#0d0c22",
         "titles": "#282825",
@@ -31,10 +32,14 @@ export default {
       }
     },
   },
-  plugins: [
 
+  variants: {
+    extend: {
+      visibility: ["group-hover"],
+    },
+   },
+  
+  plugins: [
   ],
 }
 
-
-;

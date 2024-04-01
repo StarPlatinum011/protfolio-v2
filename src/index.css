@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 /* style to give neo brutalism shadow */
 .brutal-shadow {
     @apply border border-black shadow-offset-black rounded-lg;
@@ -12,5 +14,9 @@
 }
 
 .card{
-    @apply flex place-items-center pl-2 bg-main-bg border border-black shadow-offset-black rounded-lg w-16 h-16;
+    @apply flex place-items-center  bg-main-bg border border-black shadow-offset-black rounded-lg w-16 h-16;
+}
+
+.card-hover{
+    @apply md:hover:shadow-offset-hover transition duration-300 ease-in-out  md:hover:-translate-y-0.5 hover:scale-100;
 }

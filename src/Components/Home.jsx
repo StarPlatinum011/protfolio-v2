@@ -7,6 +7,7 @@ import Contacts from './Contacts';
 import Footer from './Footer';
 
 const Home = () => {
+    
     return (
         <div>
             <Nav/>
