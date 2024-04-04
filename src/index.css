@@ -14,7 +14,7 @@
 }
 
 .card{
-    @apply flex place-items-center  bg-main-bg border border-black shadow-offset-black rounded-lg w-16 h-16;
+    @apply flex place-items-center pl-2 bg-main-bg border border-black shadow-offset-black rounded-lg w-16 h-16;
 }
 
 .card-hover{
