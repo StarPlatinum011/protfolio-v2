@@ -4,9 +4,9 @@ import { Icon } from '@iconify/react';
 
 const Hero = () => {
     return (
-        <div className='flex flex-col font-work-sans bg-main-bg text-titles py-28 md:py-48 md:flex-row md:px-48 '>
+        <div className='flex flex-col font-work-sans bg-main-bg  text-titles py-28 p-4 md:py-48 md:flex-row md:px-48 '>
         {/* heading and subheading contents  */}
-            <div className='p-4 space-y-3 md:px-16 md:pt-24'>
+            <div className=' space-y-3 md:px-16 md:pt-24'>
                 <div className='text-3xl font-bold md:text-6xl text-main-text'> <h1>Proving hard work can be equal to <span className='inline-flex text-accent-blue'>talent <Icon className='md:w-16 md:h-16' icon="meteocons:star-fill" width="2rem" height="2rem" /></span></h1>  </div> 
                 <h3 className=' text-lg md:text-3xl text-balance '>Hi, my name is Karan Pun and I’m a full-stack web developer.</h3>
                 <div className='flex space-x-4'>
@@ -15,7 +15,7 @@ const Hero = () => {
                 </div>
             </div>
             {/* picture contents */}
-            <div className='flex px-12 -mt-16 md:pt-24 md:static '>
+            <div className='flex p-8 -mt-8 md:pt-24  md:static '>
                 <ImageBackground/>
 
             </div>

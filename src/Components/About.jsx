@@ -8,7 +8,7 @@ const About = () => {
    
        
     return (
-        <div className='flex flex-col place-items-center font-work-sans bg-white text-titles p-4  py-16 md:py-28 md:px-48 '>
+        <div className='flex flex-col place-items-center font-work-sans bg-white text-titles p-4 py-16 md:py-28 md:px-48 '>
             <h1 className='text-3xl font-semibold md:text-6xl'>About</h1>
             <div className='flex flex-col md:flex-row space-y-8 md:p-16 md:space-x-32'>
                 {/* About description  */}
@@ -21,20 +21,18 @@ const About = () => {
                 </div>
 
                 {/* logos */}
-                <div className='flex flex-col content-center space-y-6 place-items-center md:space-y-12 '>
-                    <div data-aos="fade-left" data-aos-easing="ease-out-sine"
-                            data-aos-duration="800" className='flex space-x-6 md:space-x-12 '>
+                <div className='flex flex-col  space-y-6 place-items-center md:space-y-12 '>
+                    <div data-aos="fade-left" data-aos-easing="ease-out-sine" data-aos-duration="800" className='flex space-x-3 md:space-x-12 '>
                         <div  className='card md:w-32 md:h-32 card-hover'><Icon className='md:w-20 md:h-20 md:ml-4' icon="vscode-icons:file-type-js-official" width="3rem" height="3rem" /></div>
                         <div  className='card md:w-32 md:h-32 card-hover '><Icon className='md:w-20 md:h-20 md:ml-4' icon="devicon:mongodb-wordmark" width="3rem" height="3rem" /></div>
                         <div className='card md:w-32 md:h-32 card-hover '><Icon className='md:w-20 md:h-20 md:ml-4' icon="devicon:react-wordmark" width="3rem" height="3rem" /></div>
                     </div>
-                    <div data-aos="fade-right" data-aos-easing="ease-out-cubic"
-                            data-aos-duration="800" className='flex space-x-6 md:space-x-12'>
+                    <div data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="800" className='flex space-x-3 md:space-x-12'>
                         <div className='card md:w-32 md:h-32 card-hover'><Icon className='md:w-20 md:h-20 md:ml-4' icon="devicon:tailwindcss" width="3rem" height="3rem" /></div>
                         <div className='card md:w-32 md:h-32 card-hover' ><Icon className='md:w-20 md:h-20 md:ml-4' icon="logos:nodejs" width="3rem" height="3rem" /></div>
                         <div className='card md:w-32 md:h-32 card-hover'><Icon className='md:w-20 md:h-20 md:ml-4' icon="devicon:git" width="3rem" height="3rem" /></div>
                     </div>
-                    <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="800" className='flex space-x-6 md:space-x-12'>
+                    <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="800" className='flex space-x-3 md:space-x-12'>
                         <div className='card md:w-32 md:h-32 card-hover'><Icon className='md:w-20 md:h-20 md:ml-4' icon="skill-icons:css" width="3rem" height="3rem" /></div>
                         <div className='card md:w-32 md:h-32 card-hover'><Icon className='md:w-20 md:h-20 md:ml-4' icon="skill-icons:html" width="3rem" height="3rem" /></div>
                     </div>

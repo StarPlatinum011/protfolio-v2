@@ -9,7 +9,7 @@ import Footer from './Footer';
 const Home = () => {
     
     return (
-        <div>
+        <div className='box-content'>
             <Nav/>
             <Hero/>
             <About/>
