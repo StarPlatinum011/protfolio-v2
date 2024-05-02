@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import data from '../utils/ProjectData';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 
 const Projects = () => {
@@ -12,7 +13,7 @@ const Projects = () => {
        }, []);
 
     return (
-        <div className='flex flex-col font-work-sans bg-main-bg p-4 items-center text-titles space-y-12 md:px-48 md:space-y-40 py-16 md:py-28'>
+        <div id='projects' className='flex flex-col font-work-sans bg-main-bg p-4 items-center text-titles space-y-12 md:px-48 md:space-y-40 py-16 md:py-28'>
             <h1 className='text-3xl font-bold md:text-6xl mt-2 -mb-8  md:-mb-16'>Projects</h1>
             {
                 data.map((data) => {
@@ -30,10 +31,10 @@ const Projects = () => {
                                 <div className='space-x-2'>
                                     <button className={`btn brutal-shadow text-base font-semibold py-1 px-3
                                     ${data.id%2==0? 'bg-accent-green': 'bg-accent-pink'} md:text-xl md:py-2 md:px-4   
-                                    `}>Live App</button>
+                                    `}><Link to={data.url} target="_blank"> Live App</Link> </button>
                                     <button className={`btn brutal-shadow text-base font-semibold py-1 px-3
                                     ${data.id%2==0? 'bg-accent-yellow': 'bg-accent-blue'} md:text-xl md:py-2 md:px-4   
-                                    `}>Learn More</button>
+                                    `}><Link to={data.git} target="_blank"> Learn More</Link></button>
                                 </div>
                                 
                             </div>

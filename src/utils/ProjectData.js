@@ -12,42 +12,55 @@ const data = [
         image:ShoppingApp,
         title: 'Retro Books',
         subTitle: "Shopping Application",
-        desc: "A full functional shopping application where users can browse and purchase books available in the inventory. "
+        desc: "A full functional shopping application where users can browse and purchase books available in the inventory. ",
+        url: "https://starplatinum011.github.io/shopping-cart/",
+        git: "https://github.com/StarPlatinum011/shopping-cart"
     },
     {
         id:1,
         image:CVBuilder,
         title: 'CV Builder',
         subTitle: "Create Your CV",
-        desc: "A full functional shopping application where users can browse and purchase books available in the inventory "
+        desc: "Create your stylish CV. Created with react and for the styling purposes, vanilla css has been utilized.",
+        url : "https://github.com/StarPlatinum011/cv-builder",
+        git: "https://github.com/StarPlatinum011/cv-builder"
     },
     {
         id:2,
         image:MyKeeper,
         title: 'My Keeper',
         subTitle: "Note Taking Application",
-        desc: "A full functional shopping application where users can browse and purchase books available in the inventory. "
+        desc: "Clone of google Keep. Note keeping web application where users can add their custom notes.",
+        git: "https://github.com/StarPlatinum011/my-keep",
+        url : "https://github.com/StarPlatinum011/my-keep"
+
     },
     {
         id:3,
         image:Skit,
         title: 'Skit',
         subTitle: "Sketching Application",
-        desc: "A full functional shopping application where users can browse and purchase books available in the inventory. "
+        desc: "A sketching web application in which users are allowed to choose different tools to maximize their activity. It is created with a complete vanilla JavaScript",
+        git: "https://github.com/StarPlatinum011/sketch-board",
+        url : "https://github.com/StarPlatinum011/sketch-board"
     },
     {
         id:4,
         image:WeatherMe,
         title: 'Weather Me',
         subTitle: "Weather Application",
-        desc: "A full functional shopping application where users can browse and purchase books available in the inventory. "
+        desc: "Simple application to get the results of current weather in a selected location. ",
+        git: "https://github.com/StarPlatinum011/weather-app",
+        url : "https://github.com/StarPlatinum011/weather-app"
     },
     {
         id:5,
         image:Memo,
         title: 'Memo',
         subTitle: "Memory Game",
-        desc: "A full functional shopping application where users can browse and purchase books available in the inventory. "
+        desc: "A memory game to remember the occurance of the players on the screen. Basic application to utilize the react states.",
+        git: "https://github.com/StarPlatinum011/memory-card",
+        url : "https://github.com/StarPlatinum011/memory-card"
     },
     
 ]

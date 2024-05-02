@@ -8,7 +8,7 @@ const About = () => {
    
        
     return (
-        <div className='flex flex-col place-items-center font-work-sans bg-white text-titles p-4 py-16 md:py-28 md:px-48 '>
+        <div id='about' className='flex flex-col place-items-center font-work-sans bg-white text-titles p-4 py-16 md:py-28 md:px-48 '>
             <h1 className='text-3xl font-semibold md:text-6xl'>About</h1>
             <div className='flex flex-col md:flex-row space-y-8 md:p-16 md:space-x-32'>
                 {/* About description  */}
