@@ -1,4 +1,5 @@
 import React from 'react';
+import Profile from "../assets/profile.png"
 
 const ImageBackground = () => {
     return (
@@ -48,10 +49,13 @@ const ImageBackground = () => {
             <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_93_6" result="shape"/>
             </filter>
             </defs>
+            <image 
+            width={500}
+            height={490}
+                xlinkHref={Profile}
+            />
         </svg>
+    )
+}
 
-    );
-};
-
-export default ImageBackground;
-
+export default  ImageBackground;
