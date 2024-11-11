@@ -1,5 +1,4 @@
-import React from 'react';
-import Profile from "../assets/profile.png"
+import Profile from "../assets/main.png"
 
 const ImageBackground = () => {
     return (
@@ -50,9 +49,10 @@ const ImageBackground = () => {
             </filter>
             </defs>
             <image 
-            width={500}
-            height={490}
+                width={600}
+                height={488}
                 xlinkHref={Profile}
+                
             />
         </svg>
     )

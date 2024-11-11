@@ -1,4 +1,3 @@
-import React from 'react';
 import ShoppingApp from '../assets/book-shop.png'
 import CVBuilder from '../assets/CV-builder.png'
 import MyKeeper from '../assets/note-book.png'
