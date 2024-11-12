@@ -1,4 +1,4 @@
-import Profile from "../assets/main.png"
+import Profile from "../assets/profile.png"
 
 const ImageBackground = () => {
     return (

@@ -3,20 +3,30 @@ import CVBuilder from '../assets/CV-builder.png'
 import MyKeeper from '../assets/note-book.png'
 import Skit from '../assets/sketch-board.png'
 import WeatherMe from '../assets/Weather-app.png'
-import Memo from '../assets/memory-card-game.png'
+import snomemo from '../assets/blog-img.png'
 
 const data = [
     {
         id:0,
+        image:snomemo,
+        title: 'Snomemo',
+        subTitle: "Personal Blog Site",
+        desc: "A personal blog site for exploring philosophical ideas. Full RESTful site created using MERN and redux for state management.",
+        git: "https://github.com/StarPlatinum011/burnt-records",
+        url : "https://www.snomemo.com"
+    },
+    {
+        
+        id:1,
         image:ShoppingApp,
         title: 'Retro Books',
         subTitle: "Shopping Application",
-        desc: "A full functional shopping application where users can browse and purchase books available in the inventory. ",
-        url: "https://starplatinum011.github.io/shopping-cart/",
+        desc: "A full functional shopping application where users can browse and purchase books available in the inventory. (Desktop only)",
+        url: "https://shopping-cart-delta-tan.vercel.app/",
         git: "https://github.com/StarPlatinum011/shopping-cart"
     },
     {
-        id:1,
+        id:2,
         image:CVBuilder,
         title: 'CV Builder',
         subTitle: "Create Your CV",
@@ -25,7 +35,7 @@ const data = [
         git: "https://github.com/StarPlatinum011/cv-builder"
     },
     {
-        id:2,
+        id:3,
         image:MyKeeper,
         title: 'My Keeper',
         subTitle: "Note Taking Application",
@@ -35,7 +45,7 @@ const data = [
 
     },
     {
-        id:3,
+        id:4,
         image:Skit,
         title: 'Skit',
         subTitle: "Sketching Application",
@@ -44,7 +54,7 @@ const data = [
         url : "https://github.com/StarPlatinum011/sketch-board"
     },
     {
-        id:4,
+        id:5,
         image:WeatherMe,
         title: 'Weather Me',
         subTitle: "Weather Application",
@@ -52,15 +62,7 @@ const data = [
         git: "https://github.com/StarPlatinum011/weather-app",
         url : "https://github.com/StarPlatinum011/weather-app"
     },
-    {
-        id:5,
-        image:Memo,
-        title: 'Memo',
-        subTitle: "Memory Game",
-        desc: "A memory game to remember the occurance of the players on the screen. Basic application to utilize the react states.",
-        git: "https://github.com/StarPlatinum011/memory-card",
-        url : "https://github.com/StarPlatinum011/memory-card"
-    },
+   
     
 ]
 

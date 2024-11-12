@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
     return (
-        <div className='flex flex-col font-work-sans bg-main-bg  text-titles py-28 p-4 md:py-48 md:flex-row md:px-48 '>
+        <div className='flex flex-col font-work-sans bg-main-bg  text-titles pt-28 px-4 md:py-48 md:flex-row md:px-48 '>
         {/* heading and subheading contents  */}
             <div className=' space-y-3 md:px-16 md:pt-24'>
                 <div className='text-3xl font-bold md:text-6xl text-main-text'>
@@ -22,7 +22,7 @@ const Hero = () => {
                 </div>
             </div>
             {/* picture contents */}
-            <div className='flex p-8 -mt-8 md:pt-24  md:static '>
+            <div className='flex p-8 -mt-12 md:pt-24  md:static '>
                 <ImageBackground/>
 
             </div>
@@ -33,5 +33,6 @@ const Hero = () => {
 
 
 export default Hero;
+
 
 
