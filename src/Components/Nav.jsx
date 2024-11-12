@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
-import { Link } from "react-router-dom";
+import  { useState } from 'react';
 import { Icon } from '@iconify/react';
 import { HashLink } from 'react-router-hash-link';
 
-import MyPDF from "../assets/Karan's Resume-2.pdf"
+import MyPDF from "../assets/My Resume.pdf"
 
 
 
