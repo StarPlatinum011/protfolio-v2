@@ -30,8 +30,8 @@ const data = [
         image:CVBuilder,
         title: 'CV Builder',
         subTitle: "Create Your CV",
-        desc: "Create your stylish CV. Created with react and for the styling purposes, vanilla css has been utilized.",
-        url : "https://github.com/StarPlatinum011/cv-builder",
+        desc: "Create your stylish CV. Created with react and for the styling purposes, vanilla css has been utilized. (Desktop only)",
+        url : "https://cv-builder-eta-pink.vercel.app/",
         git: "https://github.com/StarPlatinum011/cv-builder"
     },
     {
@@ -41,7 +41,7 @@ const data = [
         subTitle: "Note Taking Application",
         desc: "Clone of google Keep. Note keeping web application where users can add their custom notes.",
         git: "https://github.com/StarPlatinum011/my-keep",
-        url : "https://github.com/StarPlatinum011/my-keep"
+        url : "https://keeper11.netlify.app/"
 
     },
     {
