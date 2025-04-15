@@ -10,7 +10,7 @@ const About = () => {
                 <div className='flex flex-col place-items-center mb-4 mt-1 '>
                     <p className=' text-lg text-titles md:text-2xl md:font-semibold text-justify md:pt-8 '>
                     <span ><Icon className='md:w-16 md:h-16' icon="meteocons:star-fill" width="2rem" height="2rem" /></span>
-                    A curious mind that often dwells into the darkness of bugs, somehow manages to find a solution and screams out loudly when the burst of dopamine hits. Also, a person who is deeply passionate about web development and constantly updates himself with the new technologies like React, Vue, Svelte, Remix, Next, Nuxt, you name it. And now what, HTMX? bring it on, I'm ready. Jokes aside, I am fully committed to the philosophy of life long learning and am constantly engaged with small but consistent daily growth. 
+                    I am a dedicated software developer with a keen interest in modern web technologies and a passion for solving complex problems. I enjoy exploring new tools and frameworks, and I take pride in delivering clean, efficient, and maintainable code. I believe in continuous learning and strive for consistent growth, both personally and professionally. Whether collaborating in a team or working independently, I approach every challenge with curiosity and a strong commitment to quality.
                     </p>
                     <p>
                     </p>
